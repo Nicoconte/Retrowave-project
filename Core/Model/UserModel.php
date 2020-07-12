@@ -6,7 +6,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/chatBinario/Core/Classes/Autoloader.php";
 class UserModel extends Validators
 {	
 
-	protected $userPassword = "";
+	private $userPassword = "";
 
 	public function registerUser($data)
 	{	
